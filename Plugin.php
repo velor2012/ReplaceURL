@@ -6,7 +6,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  * @package ReplaceURL
  * @author DDD
  * @version 1.0.0
- * @link https://github.com/velor2012
+ * @link https://github.com/velor2012/ReplaceURL
  */
 class ReplaceURL_Plugin implements Typecho_Plugin_Interface
 {
