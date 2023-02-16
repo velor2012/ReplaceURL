@@ -1,6 +1,6 @@
 # ReplaceURL
 
-A plugin for replacing links to various text (usually some files or pictures) in typecho
+Thanks [@Quarkay](https://github.com/Quarkay) sincerely. This repo is completely based on [this project](https://github.com/Quarkay/Typecho-SimpleCDN). It's a plugin for replacing links to various text (usually some files or pictures) in typecho.
 
 ## Install
 
@@ -12,7 +12,7 @@ Download this plugin, rename it to **ReplaceURL** and copy it to the Typecho plu
 
 ## Usage
 
-You can refer to [this project](https://github.com/Quarkay/Typecho-SimpleCDN). The usage of this project is exactly the same as that of that project. The difference is that this project can not only replace the links of the markdown articles before rendering, but also replace the links of the whole site
+You can refer to [this project](https://github.com/Quarkay/Typecho-SimpleCDN). The usage of this project is exactly the same as that of that project. The difference is that this project can not only replace the links of the markdown articles before rendering, but also replace the links of the whole site.
 
 ## Screenshot
 
