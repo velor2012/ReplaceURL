@@ -17,3 +17,7 @@ You can refer to [this project](https://github.com/Quarkay/Typecho-SimpleCDN). T
 ## Screenshot
 
 ![1676538393452](image/README/1676538393452.png)
+
+## License
+
+[The GNU General Public License (GPL) V2](LICENSE)
