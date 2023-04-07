@@ -43,8 +43,8 @@ class ReplaceURL_Plugin implements Typecho_Plugin_Interface
     public static function config(Typecho_Widget_Helper_Form $form){
         // 设置替换分割符和替换规则
         $sep_flag = new Typecho_Widget_Helper_Form_Element_Text('sep_flag', NULL, '-_-', _t('规则分割符'), _t('规则分割符默认为 -_- ，可根据需要进行设置。'));
-        $to_replace = new Typecho_Widget_Helper_Form_Element_Text('to_replace', NULL, '', _t('替换前地址'));
-        $replace_to = new Typecho_Widget_Helper_Form_Element_Text('replace_to', NULL, '', _t('替换后地址'));
+        $to_replace = new Typecho_Widget_Helper_Form_Element_Textarea('to_replace', NULL, '', _t('替换前地址'));
+        $replace_to = new Typecho_Widget_Helper_Form_Element_Textarea('replace_to', NULL, '', _t('替换后地址'));
         $only_for_md = new Typecho_Widget_Helper_Form_Element_Radio('only_for_md', array(0 => _t('仅替换文章'), 1 => _t('整站替换')), 0, _t(''), '');
         $form->addInput($only_for_md);  
         $form->addInput($sep_flag);
